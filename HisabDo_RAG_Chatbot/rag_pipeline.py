@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 
-GORQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 class RAGPipeline:
     def __init__(self, knowledge_base_dir):
@@ -95,7 +95,7 @@ class RAGPipeline:
             f"[{c['section_title']}]\n{c['text']}" for c in retrieved_chunks
         )
 
-        api_key = GORQ_API_KEY
+        api_key = GROQ_API_KEY
         if not api_key:
             return {
                 "query": query,
