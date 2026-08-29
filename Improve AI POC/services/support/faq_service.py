@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from difflib import SequenceMatcher
 
-FAQ_PATH = Path(__file__).resolve().parents[2] / "data" / "faq.json"
+FAQ_PATH = Path(__file__).resolve().parents[2] / "faq.json"
 
 def _load_faqs():
     with open(FAQ_PATH, "r", encoding="utf-8") as f:
