@@ -1,0 +1,45 @@
+﻿id,category,question,answer,source,verification
+FAQ-001,General,What is HisabDo?,"HisabDo is a digital Khata and Ledger app for managing khata, udhar, expenses, receivables, customers and business records.",Official HisabDo website; Google Play listing,Verified
+FAQ-002,General,Who is HisabDo designed for?,"It is designed for shopkeepers, retailers, wholesalers, freelancers, service providers, small businesses and people who want to track financial records.",Official HisabDo website; Google Play listing,Verified
+FAQ-003,General,Is HisabDo free to use?,Yes. The official website and Google Play listing describe HisabDo as a free app/download.,Official HisabDo website; Google Play listing,Verified
+FAQ-004,General,Does HisabDo work without internet?,Yes. HisabDo is described as offline-first and the app listing says records can be managed without an internet connection.,Official HisabDo website; Google Play listing,Verified
+FAQ-005,General,Which languages are supported?,"The published information lists Urdu, English, Hindi, Arabic and Roman Urdu.",Official HisabDo website; Google Play listing,Verified
+FAQ-006,General,Which currencies are supported?,"The published information lists PKR, USD and INR.",Official HisabDo website; Google Play listing,Verified
+FAQ-007,Accounts,Can I create customer accounts?,Yes. HisabDo supports customer profiles/accounts and customer ledger management.,Official HisabDo website; Google Play listing,Verified
+FAQ-008,Accounts,Can I view a customer's complete transaction history?,Yes. The app listing states that users can view complete transaction history for customers.,Google Play listing,Verified
+FAQ-009,Accounts,Can I edit customer details?,Yes. The app listing states that customer details can be updated.,Google Play listing,Verified
+FAQ-010,Accounts,Are account limits or paid account tiers documented publicly?,The reviewed public website and app listing do not specify account-tier limits. Do not invent a limit in the FAQ.,Official website and Google Play listing review,Verified boundary
+FAQ-011,Customers,Can I manage customer balances?,Yes. HisabDo supports customer balances and customer ledger management.,Official HisabDo website; Google Play listing,Verified
+FAQ-012,Customers,Can I search for customers?,Yes. The Google Play listing states that customers can be searched instantly.,Google Play listing,Verified
+FAQ-013,Customers,Can I keep a complete customer ledger?,Yes. Customer ledger and complete transaction history are core features.,Official HisabDo website; Google Play listing,Verified
+FAQ-014,Transactions,Can I record money given and money received?,Yes. HisabDo supports recording money given and money received.,Official HisabDo website; Google Play listing,Verified
+FAQ-015,Transactions,Can I record payment transactions?,"Yes. Payments, transactions and customer balances are supported.",Official HisabDo website; Google Play listing,Verified
+FAQ-016,Transactions,Can I add notes to transactions?,The Google Play listing describes payment notes as part of customer transaction records.,Google Play listing,Verified
+FAQ-017,Transactions,Can I view transaction history?,Yes. Transaction history can be viewed and organized by customer.,Google Play listing,Verified
+FAQ-018,Khata,What is Khata in HisabDo?,Khata is the digital ledger used to keep customer and business financial records instead of relying on a paper register.,Official HisabDo website,Verified
+FAQ-019,Khata,Can HisabDo track Udhar?,Yes. Udhar/credit tracking is a core feature of HisabDo.,Official HisabDo website; Google Play listing,Verified
+FAQ-020,Khata,Can I track receivables and payables?,Yes. HisabDo publicly lists receivables and payables among its supported records.,Official HisabDo website; Google Play listing,Verified
+FAQ-021,Udhar,Can I record money owed by customers?,"Yes. HisabDo supports customer balances, udhar and receivables.",Official HisabDo website; Google Play listing,Verified
+FAQ-022,Udhar,Can I record money I owe?,Yes. The published feature set includes payables as well as receivables.,Official HisabDo website; Google Play listing,Verified
+FAQ-023,Udhar,Can I see the complete history of an Udhar account?,Yes. Customer accounts can show complete transaction history.,Google Play listing,Verified
+FAQ-024,Expenses,Can I track daily expenses?,Yes. HisabDo includes a daily expense tracker.,Official HisabDo website; Google Play listing,Verified
+FAQ-025,Expenses,What kinds of expenses can be recorded?,"The app listing gives examples including shop expenses, personal expenses, utility bills, transport costs, staff payments and miscellaneous expenses.",Google Play listing,Verified
+FAQ-026,Expenses,Can expenses be included in business reporting?,Yes. Business reports include expense information and summaries.,Official HisabDo website; Google Play listing,Verified
+FAQ-027,Receivables,Can I track total receivables?,Yes. The smart dashboard is described as showing total receivables.,Google Play listing,Verified
+FAQ-028,Receivables,Can I track total payables?,Yes. The smart dashboard is described as showing total payables.,Google Play listing,Verified
+FAQ-029,Receivables,Can I see customer balances?,Yes. Customer balances are part of the dashboard and customer ledger features.,Google Play listing,Verified
+FAQ-030,Reports,Does HisabDo provide business reports?,Yes. HisabDo provides business reports and financial summaries.,Official HisabDo website; Google Play listing,Verified
+FAQ-031,Reports,What can the dashboard show?,"Published information includes total receivables, total payables, total expenses, customer balances and a business overview.",Google Play listing,Verified
+FAQ-032,Reports,Can I view financial summaries?,"Yes. The app provides summaries of income, expenses and balances.",Google Play listing,Verified
+FAQ-033,PDF Export,Can I export a ledger as PDF?,Yes. HisabDo supports PDF ledger/report export.,Official HisabDo website; Google Play listing,Verified
+FAQ-034,PDF Export,Can PDF reports be shared or stored?,The published information says professional PDF reports/statements can be generated and shared/saved as records.,Official HisabDo website; Google Play listing,Verified
+FAQ-035,PDF Export,What can PDF reports contain?,"Published information describes reports for transactions, balances, customer activity and ledger records.",Official HisabDo website; Google Play listing,Verified
+FAQ-036,Backup & Restore,Does HisabDo support backup and restore?,Yes. Backup and restore are listed features.,Official HisabDo website; Google Play listing,Verified
+FAQ-037,Backup & Restore,Why should I use backup and restore?,Backup and restore help protect records and provide a way to recover data when needed.,Official HisabDo website; Google Play listing,Verified
+FAQ-038,Backup & Restore,Is the exact backup file format documented publicly?,The reviewed public website and app listing do not specify the backup file format. The FAQ should not claim a format unless the product documentation confirms it.,Official website and Google Play listing review,Verified boundary
+FAQ-039,Offline Mode,Does HisabDo work offline?,Yes. HisabDo is designed as an offline-first app and its core records are described as available without internet.,Official HisabDo website; Google Play listing,Verified
+FAQ-040,Offline Mode,What is the benefit of offline mode?,Users can manage records in low-connectivity situations without depending on an internet connection for core record keeping.,Official HisabDo website,Verified
+FAQ-041,Offline Mode,Does every online/cloud feature work offline?,The public information specifically describes core record management as offline and says optional signed-in features can support backup or sync. Exact offline coverage for every feature is not publicly specified.,Official HisabDo website,Verified boundary
+FAQ-042,Voice Entry,Does HisabDo support voice entry?,Yes. Voice Entry is listed as a feature on the official website and in public company information.,Official HisabDo website; HisabDo public company information,Verified
+FAQ-043,Voice Entry,Can I create records using voice?,The official website describes Voice Entry as a way to create records faster using voice support.,Official HisabDo website,Verified
+FAQ-044,Voice Entry,Which languages are supported for voice entry?,"The public sources confirm multi-language support, but do not provide a separate verified list specifically for voice recognition. Do not assume all listed UI languages work identically for voice.",Official website review,Verified boundary
