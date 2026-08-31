@@ -1,18 +1,9 @@
 import json
-import os
+from pathlib import Path
 
 
 def load_help_articles():
-
-    file_path = os.path.join(
-        os.path.dirname(
-            os.path.dirname(
-                os.path.dirname(__file__)
-            )
-        ),
-        "data",
-        "help_articles.json"
-    )
+    file_path = Path(__file__).resolve().parents[2] / "help_articles.json"
 
     try:
 
