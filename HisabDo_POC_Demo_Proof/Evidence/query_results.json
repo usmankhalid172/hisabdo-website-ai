@@ -1,0 +1,348 @@
+[
+  [
+    "Product Query (General)",
+    "What is HisabDo?",
+    200,
+    {
+      "data": {
+        "answer": "I couldn't find enough verified information to answer that reliably.",
+        "confidence": 0.24,
+        "fallback": true,
+        "fallback_type": "low_confidence",
+        "found": false,
+        "intent": "product_info",
+        "intent_confidence": 0.65,
+        "language": "english",
+        "related_questions": [],
+        "verified": false
+      },
+      "message": "Safe fallback response generated.",
+      "status": "success"
+    }
+  ],
+  [
+    "Feature Query",
+    "What features does HisabDo have?",
+    200,
+    {
+      "data": {
+        "answer": "I couldn't find enough verified information to answer that reliably.",
+        "confidence": 0.28,
+        "fallback": true,
+        "fallback_type": "low_confidence",
+        "found": false,
+        "intent": "feature",
+        "intent_confidence": 0.8,
+        "language": "english",
+        "related_questions": [],
+        "verified": false
+      },
+      "message": "Safe fallback response generated.",
+      "status": "success"
+    }
+  ],
+  [
+    "FAQ / How-to Query",
+    "How can I add an expense?",
+    200,
+    {
+      "data": {
+        "answer": "Open the Expenses section, select Add Expense, enter the expense details, review them, and save the transaction.",
+        "category": "Expenses",
+        "confidence": 0.77,
+        "confidence_level": "medium",
+        "detected_intent": "how_to",
+        "fallback": false,
+        "found": true,
+        "intent": "how_to",
+        "intent_confidence": 0.8,
+        "language": "english",
+        "quality_check": {
+          "checks": {
+            "clear": true,
+            "confidence_ok": true,
+            "generic_content_check": true,
+            "relevant": true,
+            "verified": true
+          },
+          "passed": true,
+          "relevance_score": 0.33
+        },
+        "related_questions": [
+          "How can I view my expenses?",
+          "How can I edit an expense?",
+          "How can I delete an expense?"
+        ],
+        "validation": {
+          "reason": "validated",
+          "valid": true
+        },
+        "verified": true
+      },
+      "message": "AI support response generated successfully.",
+      "status": "success"
+    }
+  ],
+  [
+    "Support Query",
+    "My backup is not working.",
+    200,
+    {
+      "data": {
+        "answer": "Kya aap thora wazeh kar sakte hain ke aap kya karna chahte hain? Aap customer, expense, transaction ya account ke bare mein pooch sakte hain.",
+        "fallback": true,
+        "fallback_type": "ambiguous",
+        "found": false,
+        "intent": "faq",
+        "intent_confidence": 0.65,
+        "language": "roman_urdu",
+        "related_questions": [],
+        "verified": false
+      },
+      "message": "Clarification response generated.",
+      "status": "success"
+    }
+  ],
+  [
+    "Unknown Query",
+    "What is the weather today?",
+    200,
+    {
+      "data": {
+        "answer": "I couldn't find a verified HisabDo answer for that question.",
+        "confidence": 0.29,
+        "fallback": true,
+        "fallback_type": "unknown",
+        "found": false,
+        "intent": "unknown",
+        "intent_confidence": 0.0,
+        "language": "english",
+        "related_questions": [],
+        "verified": false
+      },
+      "message": "Safe fallback response generated.",
+      "status": "success"
+    }
+  ],
+  [
+    "Ambiguous / Unclear Query",
+    "How do I do it?",
+    200,
+    {
+      "data": {
+        "answer": "Open the Expenses section, select Add Expense, enter the expense details, review them, and save the transaction.",
+        "category": "Expenses",
+        "confidence": 0.66,
+        "confidence_level": "medium",
+        "detected_intent": "how_to",
+        "fallback": false,
+        "found": true,
+        "intent": "how_to",
+        "intent_confidence": 0.65,
+        "language": "english",
+        "quality_check": {
+          "checks": {
+            "clear": true,
+            "confidence_ok": true,
+            "generic_content_check": true,
+            "relevant": true,
+            "verified": true
+          },
+          "passed": true,
+          "relevance_score": 0.2
+        },
+        "related_questions": [
+          "How can I view my expenses?",
+          "How can I edit an expense?",
+          "How can I delete an expense?"
+        ],
+        "validation": {
+          "reason": "validated",
+          "valid": true
+        },
+        "verified": true
+      },
+      "message": "AI support response generated successfully.",
+      "status": "success"
+    }
+  ],
+  [
+    "Roman Urdu Query",
+    "Expense kaise add karain?",
+    200,
+    {
+      "data": {
+        "answer": "Open the Expenses section, select Add Expense, enter the expense details, review them, and save the transaction.",
+        "category": "Expenses",
+        "confidence": 0.67,
+        "confidence_level": "medium",
+        "detected_intent": "how_to",
+        "fallback": false,
+        "found": true,
+        "intent": "how_to",
+        "intent_confidence": 0.8,
+        "language": "roman_urdu",
+        "quality_check": {
+          "checks": {
+            "clear": true,
+            "confidence_ok": true,
+            "generic_content_check": true,
+            "relevant": true,
+            "verified": true
+          },
+          "passed": true,
+          "relevance_score": 0.5
+        },
+        "related_questions": [
+          "How can I view my expenses?",
+          "How can I edit an expense?",
+          "How can I delete an expense?"
+        ],
+        "validation": {
+          "reason": "validated",
+          "valid": true
+        },
+        "verified": true
+      },
+      "message": "AI support response generated successfully.",
+      "status": "success"
+    }
+  ],
+  [
+    "Urdu Query",
+    "میں خرچہ کیسے شامل کروں؟",
+    200,
+    {
+      "data": {
+        "answer": "مجھے اس سوال کا تصدیق شدہ HisabDo جواب نہیں ملا۔",
+        "confidence": 0.1,
+        "fallback": true,
+        "fallback_type": "unknown",
+        "found": false,
+        "intent": "unknown",
+        "intent_confidence": 0.0,
+        "language": "urdu",
+        "related_questions": [],
+        "verified": false
+      },
+      "message": "Safe fallback response generated.",
+      "status": "success"
+    }
+  ],
+  [
+    "Financial Question",
+    "How do I track my monthly profit?",
+    200,
+    {
+      "data": {
+        "answer": "I couldn't find enough verified information to answer that reliably.",
+        "category": "Expenses",
+        "confidence": 0.68,
+        "confidence_level": "medium",
+        "detected_intent": "how_to",
+        "fallback": true,
+        "fallback_type": "low_confidence",
+        "found": false,
+        "intent_confidence": 0.65,
+        "language": "english",
+        "quality_check": {
+          "checks": {
+            "clear": true,
+            "confidence_ok": true,
+            "generic_content_check": true,
+            "relevant": false,
+            "verified": true
+          },
+          "passed": false,
+          "relevance_score": 0.12
+        },
+        "related_questions": [],
+        "validation": {
+          "reason": "validated",
+          "valid": true
+        },
+        "verified": false
+      },
+      "message": "Safe response generated after quality validation.",
+      "status": "success"
+    }
+  ],
+  [
+    "Greeting",
+    "Hi",
+    200,
+    {
+      "data": {
+        "answer": "Hello! I'm the HisabDo assistant. Ask me about expenses, customers, transactions, accounts, or any other HisabDo feature.",
+        "fallback": false,
+        "found": false,
+        "intent": "greeting",
+        "intent_confidence": 1.0,
+        "language": "english",
+        "related_questions": [],
+        "verified": false
+      },
+      "message": "Conversational response generated.",
+      "status": "success"
+    }
+  ],
+  [
+    "Follow-up (after How-to)",
+    "What about deleting it?",
+    200,
+    {
+      "data": {
+        "answer": "I couldn't find enough verified information to answer that reliably.",
+        "category": "Expenses",
+        "confidence": 0.61,
+        "confidence_level": "medium",
+        "detected_intent": "unknown",
+        "fallback": true,
+        "fallback_type": "low_confidence",
+        "found": false,
+        "intent_confidence": 0.0,
+        "language": "english",
+        "quality_check": {
+          "checks": {
+            "clear": true,
+            "confidence_ok": false,
+            "generic_content_check": true,
+            "relevant": true,
+            "verified": true
+          },
+          "passed": false,
+          "relevance_score": 0.2
+        },
+        "related_questions": [],
+        "validation": {
+          "reason": "validated",
+          "valid": true
+        },
+        "verified": false
+      },
+      "message": "Safe response generated after quality validation.",
+      "status": "success"
+    }
+  ],
+  [
+    "Incorrect / Nonsense Query",
+    "asdkjaskdj123",
+    200,
+    {
+      "data": {
+        "answer": "I couldn't find a verified HisabDo answer for that question.",
+        "confidence": 0.12,
+        "fallback": true,
+        "fallback_type": "unknown",
+        "found": false,
+        "intent": "unknown",
+        "intent_confidence": 0.0,
+        "language": "english",
+        "related_questions": [],
+        "verified": false
+      },
+      "message": "Safe fallback response generated.",
+      "status": "success"
+    }
+  ]
+]

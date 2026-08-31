@@ -1,0 +1,174 @@
+[
+  [
+    "Context-Aware Help",
+    "POST",
+    "/ai/help/context",
+    {
+      "current_page": "Expenses",
+      "user_action": "adding a new expense",
+      "query": "help me here"
+    },
+    200,
+    {
+      "data": {
+        "current_page": "Expenses",
+        "guidance": "You are currently on Expenses. For 'adding a new expense', follow the instructions shown in the app or ask a more specific question for step-by-step help.",
+        "query": "help me here",
+        "user_action": "adding a new expense"
+      },
+      "message": "Context-aware help generated.",
+      "status": "success"
+    }
+  ],
+  [
+    "Feature Guidance",
+    "POST",
+    "/ai/help/feature",
+    {
+      "feature": "invoices"
+    },
+    200,
+    {
+      "data": {
+        "feature": "invoices",
+        "guidance": "Open Invoices, choose Create Invoice, add customer and items, then save."
+      },
+      "message": "Feature guidance generated.",
+      "status": "success"
+    }
+  ],
+  [
+    "Step-by-Step Help",
+    "POST",
+    "/ai/help/steps",
+    {
+      "task": "add expense"
+    },
+    200,
+    {
+      "data": {
+        "steps": [
+          "Open the Expenses section.",
+          "Select Add Expense.",
+          "Enter the expense details.",
+          "Review the information.",
+          "Save the expense."
+        ],
+        "task": "add expense"
+      },
+      "message": "Step-by-step help generated.",
+      "status": "success"
+    }
+  ],
+  [
+    "Error Assistance",
+    "POST",
+    "/ai/help/error",
+    {
+      "error_message": "Failed to save invoice",
+      "feature": "Invoices"
+    },
+    200,
+    {
+      "data": {
+        "error": "Failed to save invoice",
+        "feature": "Invoices",
+        "suggestion": "Check the required fields, verify your connection, try again, and contact support if the issue continues."
+      },
+      "message": "Error assistance generated.",
+      "status": "success"
+    }
+  ],
+  [
+    "Help Article Suggestions",
+    "POST",
+    "/ai/help/articles",
+    {
+      "query": "how to manage my expense report"
+    },
+    200,
+    {
+      "data": {
+        "articles": [
+          {
+            "category": "Expenses",
+            "title": "Adding an Expense"
+          },
+          {
+            "category": "Expenses",
+            "title": "Managing Expenses"
+          },
+          {
+            "category": "Reports",
+            "title": "Viewing Reports"
+          }
+        ],
+        "query": "how to manage my expense report"
+      },
+      "message": "Help articles suggested.",
+      "status": "success"
+    }
+  ],
+  [
+    "Support Automation",
+    "POST",
+    "/ai/help/automate",
+    {
+      "query": "I need help resetting my password"
+    },
+    200,
+    {
+      "data": {
+        "action": "Support request classified and prepared for assistance.",
+        "automated": true,
+        "query": "I need help resetting my password"
+      },
+      "message": "Support request automated.",
+      "status": "success"
+    }
+  ],
+  [
+    "Human Escalation",
+    "POST",
+    "/ai/help/escalate",
+    {
+      "issue_type": "Payment Issue"
+    },
+    200,
+    {
+      "data": {
+        "escalated": true,
+        "issue_type": "Payment Issue",
+        "message": "Your issue has been prepared for human support.",
+        "priority": "HIGH",
+        "ticket_id": "HD-8D4B3AA9"
+      },
+      "message": "Support request escalated.",
+      "status": "success"
+    }
+  ],
+  [
+    "Fallback: Missing body (400)",
+    "POST",
+    "/ai/help/faq",
+    null,
+    400,
+    {
+      "data": null,
+      "message": "Request data is required.",
+      "status": "error"
+    }
+  ],
+  [
+    "Fallback: Not Found (404)",
+    "GET",
+    "/this/route/does/not/exist",
+    null,
+    404,
+    {
+      "data": null,
+      "message": "API endpoint not found.",
+      "status": "error"
+    }
+  ]
+]
