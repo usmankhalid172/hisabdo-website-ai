@@ -1,0 +1,87 @@
+{
+  "project": "HisabDo AI Copilot",
+  "module": "AI Model Selection and POC Configuration",
+  "prepared_by": "Muhammad Taha",
+  "selection_strategy": {
+    "provider_agnostic": true,
+    "primary_recommendation": "Benchmark local and API-based approaches using HisabDo-specific test cases before final model selection",
+    "architecture": {
+      "frontend": "React Chat UI",
+      "backend": "Express Backend",
+      "ai_service": "FastAPI",
+      "local_runtime": "Ollama-compatible adapter",
+      "knowledge": "RAG / Vector Search",
+      "financial_data": "Verified API and deterministic business logic"
+    }
+  },
+  "requirements": {
+    "languages": [
+      "english",
+      "roman_urdu"
+    ],
+    "future_languages": [
+      "urdu"
+    ],
+    "must_support": [
+      "FAQ queries",
+      "product guidance",
+      "intent-aware routing",
+      "verified context",
+      "safe fallback"
+    ],
+    "must_not": [
+      "directly access the database",
+      "invent financial balances",
+      "return unsupported financial facts"
+    ]
+  },
+  "candidate_approaches": [
+    {
+      "type": "local",
+      "runtime": "Ollama",
+      "evaluate_on": [
+        "quality",
+        "roman_urdu",
+        "latency",
+        "ram_usage",
+        "privacy"
+      ]
+    },
+    {
+      "type": "api_based",
+      "runtime": "Configurable API provider adapter",
+      "evaluate_on": [
+        "quality",
+        "multilingual_support",
+        "latency",
+        "cost",
+        "integration"
+      ]
+    }
+  ],
+  "evaluation": {
+    "query_categories": [
+      "product_information",
+      "faq",
+      "feature_guidance",
+      "roman_urdu",
+      "mixed_language",
+      "unknown_query",
+      "financial_routing"
+    ],
+    "metrics": [
+      "response_relevance",
+      "verified_accuracy",
+      "unsupported_answer_rate",
+      "intent_accuracy",
+      "average_response_time_ms",
+      "failure_rate"
+    ]
+  },
+  "acceptance_criteria": {
+    "verified_context_required_for_product_answers": true,
+    "financial_data_requires_verified_api": true,
+    "unknown_intent_requires_fallback": true,
+    "model_selection_requires_documented_benchmark": true
+  }
+}
