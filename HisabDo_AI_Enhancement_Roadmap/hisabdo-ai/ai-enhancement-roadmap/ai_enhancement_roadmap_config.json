@@ -1,0 +1,119 @@
+{
+  "project": "HisabDo AI Copilot",
+  "prepared_by": "Muhammad Taha",
+  "roadmap": [
+    {
+      "phase": 1,
+      "name": "Basic AI Assistant",
+      "modules": [
+        "chat_ui",
+        "basic_ai_api",
+        "intent_detection",
+        "faq_support",
+        "fallback",
+        "basic_testing"
+      ],
+      "depends_on": []
+    },
+    {
+      "phase": 2,
+      "name": "RAG and Knowledge Base",
+      "modules": [
+        "content_collection",
+        "cleaning",
+        "chunking",
+        "embeddings",
+        "faiss_vector_search",
+        "rag_responses"
+      ],
+      "depends_on": [
+        1
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "Multilingual AI",
+      "modules": [
+        "english",
+        "roman_urdu",
+        "urdu",
+        "language_detection",
+        "input_normalization"
+      ],
+      "depends_on": [
+        1,
+        2
+      ]
+    },
+    {
+      "phase": 4,
+      "name": "Financial Intelligence",
+      "modules": [
+        "financial_intent",
+        "verified_api_tools",
+        "balance_queries",
+        "expense_queries",
+        "receivable_analysis"
+      ],
+      "depends_on": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "phase": 5,
+      "name": "AI Engagement",
+      "modules": [
+        "smart_suggestions",
+        "recommendations",
+        "dashboard_insights",
+        "feature_discovery",
+        "follow_up_suggestions"
+      ],
+      "depends_on": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "phase": 6,
+      "name": "Advanced AI",
+      "modules": [
+        "voice_ai",
+        "predictive_insights",
+        "advanced_recommendations",
+        "local_ai_optimization",
+        "offline_ai"
+      ],
+      "depends_on": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "testing": [
+    "unit",
+    "integration",
+    "rag_quality",
+    "multilingual",
+    "financial_safety",
+    "failure",
+    "performance"
+  ],
+  "integration_flow": [
+    "react_chat_ui",
+    "express_backend",
+    "fastapi_ai_service",
+    "ai_orchestrator",
+    "ai_modules",
+    "verified_data_or_knowledge",
+    "validation_fallback",
+    "user_response"
+  ]
+}
