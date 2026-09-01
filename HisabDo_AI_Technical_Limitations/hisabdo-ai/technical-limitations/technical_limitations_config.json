@@ -1,0 +1,54 @@
+{
+  "project": "HisabDo AI Copilot",
+  "document": "Technical Limitations and Future Improvements",
+  "prepared_by": "Muhammad Taha",
+  "poc_status": {
+    "stage": "research_and_prototype",
+    "production_ready": false,
+    "limitations": [
+      "limited_feature_coverage",
+      "limited_evaluation_dataset",
+      "manual_configuration",
+      "partial_integration"
+    ]
+  },
+  "model_controls": {
+    "verified_context_required_for_product_answers": true,
+    "direct_llm_database_access": false,
+    "financial_calculations_by_llm": false,
+    "unknown_intent_action": "safe_fallback_or_clarification"
+  },
+  "multilingual": {
+    "supported_target_languages": [
+      "english",
+      "urdu",
+      "roman_urdu"
+    ],
+    "normalization_required": true,
+    "low_confidence_action": "ask_for_clarification"
+  },
+  "performance": {
+    "track_latency": true,
+    "track_timeout": true,
+    "track_concurrency": true,
+    "optimize_vector_search": true
+  },
+  "security": {
+    "authentication_required": true,
+    "authorization_required": true,
+    "financial_data_user_scoped": true,
+    "prompt_injection_controls": true,
+    "hide_internal_errors": true,
+    "audit_logging": true
+  },
+  "future_improvements": [
+    "knowledge_base_governance",
+    "multilingual_evaluation_dataset",
+    "intent_and_entity_improvements",
+    "rag_quality_controls",
+    "production_security",
+    "performance_benchmarking",
+    "observability",
+    "scalability_planning"
+  ]
+}
