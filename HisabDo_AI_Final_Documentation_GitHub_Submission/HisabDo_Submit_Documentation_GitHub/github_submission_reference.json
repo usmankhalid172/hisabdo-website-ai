@@ -1,0 +1,22 @@
+{
+  "prepared_by": "Muhammad Taha",
+  "department": "AI/ML",
+  "project": "HisabDo Website Enhancement",
+  "submission": {
+    "repository_url": "ADD_REPOSITORY_URL",
+    "branch": "ADD_BRANCH_NAME",
+    "commit_reference": "ADD_COMMIT_SHA_OR_URL",
+    "pull_request_reference": "ADD_PR_NUMBER_OR_URL",
+    "final_github_link": "ADD_FINAL_GITHUB_LINK"
+  },
+  "deliverables": [
+    "AI Architecture",
+    "AI Workflow",
+    "AI Use Cases and Requirements",
+    "AI POC Details",
+    "Testing Results",
+    "Technical Limitations",
+    "AI Enhancement Roadmap",
+    "README Update"
+  ]
+}
