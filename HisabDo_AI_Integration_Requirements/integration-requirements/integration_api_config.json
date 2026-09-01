@@ -1,0 +1,71 @@
+{
+  "project": "HisabDo AI Copilot",
+  "module": "Technical Integration Requirements",
+  "prepared_by": "Muhammad Taha",
+  "architecture": {
+    "frontend": "React",
+    "application_backend": "Express",
+    "ai_service": "FastAPI",
+    "orchestrator": "AI Orchestrator",
+    "knowledge": [
+      "FAQ",
+      "RAG",
+      "Vector Search"
+    ],
+    "financial_data": "Verified APIs and deterministic business logic"
+  },
+  "public_api": {
+    "chat": {
+      "method": "POST",
+      "path": "/api/ai/chat",
+      "request": {
+        "message": "string",
+        "conversationId": "string|null",
+        "language": "auto|english|roman_urdu|urdu"
+      },
+      "response": {
+        "success": "boolean",
+        "requestId": "string",
+        "type": "knowledge_answer|financial_answer|fallback",
+        "language": "string",
+        "message": "string",
+        "source": {
+          "type": "verified_knowledge|verified_financial_data|fallback"
+        }
+      }
+    }
+  },
+  "routing": {
+    "knowledge_query": "RAG / FAQ module",
+    "financial_query": "Verified Financial API",
+    "unknown_query": "Safe fallback"
+  },
+  "security_rules": {
+    "frontend_direct_database_access": false,
+    "llm_direct_database_access": false,
+    "authentication_required_for_protected_data": true,
+    "authorization_required_for_financial_data": true,
+    "user_scoped_financial_queries": true,
+    "input_validation": true,
+    "rate_limiting": true,
+    "sanitized_errors": true,
+    "request_logging": true
+  },
+  "service_contract": {
+    "flow": [
+      "React Chat UI",
+      "Express Backend",
+      "FastAPI AI Service",
+      "AI Orchestrator",
+      "Knowledge or Financial Module",
+      "Verified Context",
+      "Response Validation",
+      "User Response"
+    ]
+  },
+  "fallback": {
+    "fabricate_information": false,
+    "hide_internal_errors": true,
+    "return_user_friendly_message": true
+  }
+}
