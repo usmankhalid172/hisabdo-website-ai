@@ -1,0 +1,85 @@
+{
+  "project": "HisabDo AI Copilot",
+  "module": "AI Response Quality Review",
+  "prepared_by": "Muhammad Taha",
+  "review_dimensions": {
+    "accuracy": {
+      "description": "Verify factual correctness against approved knowledge or verified data",
+      "pass_condition": "No incorrect or unsupported factual claims"
+    },
+    "relevance": {
+      "description": "Verify that the response directly addresses the user query",
+      "pass_condition": "Response matches user intent and avoids unnecessary content"
+    },
+    "hallucination": {
+      "description": "Detect information not supported by verified context",
+      "pass_condition": "No fabricated product, support, or financial information"
+    },
+    "multilingual": {
+      "languages": [
+        "english",
+        "roman_urdu"
+      ],
+      "future_languages": [
+        "urdu"
+      ],
+      "checks": [
+        "language_understanding",
+        "language_matching",
+        "normalization",
+        "mixed_input_handling"
+      ]
+    },
+    "consistency": {
+      "description": "Compare equivalent queries and validate stable behavior",
+      "pass_condition": "No unexplained conflicting responses"
+    }
+  },
+  "issue_categories": [
+    "accuracy_issue",
+    "relevance_issue",
+    "hallucination",
+    "language_issue",
+    "consistency_issue",
+    "prompt_issue",
+    "retrieval_issue",
+    "intent_routing_issue",
+    "model_limitation",
+    "integration_issue"
+  ],
+  "review_workflow": [
+    "sample_query",
+    "expected_intent_and_source",
+    "generate_response",
+    "accuracy_review",
+    "relevance_review",
+    "hallucination_check",
+    "multilingual_and_consistency_check",
+    "issue_classification",
+    "apply_improvement",
+    "retest",
+    "document_final_result"
+  ],
+  "financial_safety": {
+    "llm_must_not_invent_balances": true,
+    "verified_data_required": true,
+    "fallback_required_when_data_unavailable": true
+  },
+  "test_record_schema": {
+    "required_fields": [
+      "test_id",
+      "user_query",
+      "language",
+      "expected_intent",
+      "expected_source",
+      "actual_response",
+      "accuracy_status",
+      "relevance_status",
+      "hallucination_status",
+      "identified_issue",
+      "proposed_improvement",
+      "retest_status",
+      "final_status"
+    ]
+  }
+}
